@@ -2,7 +2,7 @@ Tourism Companies Scraper
 -------------------------
 
 ## Overview
-This project scrapes tourism company data from the [Yellow Pages Business Directory](https://www.yellowpages.org.in/tours-And-travels/56) using Python.
+This project scrapes tourism companies data from the [Yellow Pages Business Directory](https://www.yellowpages.org.in/tours-And-travels/56) using Python.
 
 Regarding implementing an automation trigger: since a simple “Scheduled Run” would not add meaningful value (the data is not dynamic like weather data), I designed the scraper to trigger automatically when data from the source changes.  
 This ensures that scraping happens only when relevant updates occur.
